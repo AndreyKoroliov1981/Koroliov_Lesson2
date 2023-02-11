@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Домашняя работа 2</string>
+    <string name="text_next_activity">Следующая активити</string>
+    <string name="text_any_text_for_first_activity">Любой текст для первой активити</string>
+</resources>
