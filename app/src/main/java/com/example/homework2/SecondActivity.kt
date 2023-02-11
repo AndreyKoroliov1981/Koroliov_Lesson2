@@ -22,7 +22,8 @@ class SecondActivity : AppCompatActivity() {
             }
             val intent = Intent(this, MainActivity::class.java)
             intent.putExtra(EXTRA_MESSAGE, message)
-            startActivity(intent)
+            setResult(RESULT_OK, intent)
+            finish()
         }
     }
 }
