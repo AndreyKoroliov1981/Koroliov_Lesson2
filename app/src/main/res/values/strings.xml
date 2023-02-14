@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Home Work 2</string>
+    <string name="app_name">Home Work 3_1</string>
+    <string name="text_linearlayout">LinearLayout</string>
+    <string name="text_framelayout">FrameLayout</string>
+    <string name="text_gridlayout">GridLayout</string>
 </resources>
