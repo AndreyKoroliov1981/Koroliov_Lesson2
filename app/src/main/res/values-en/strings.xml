@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aston intensive</string>
+    <string name="textForBusiness">IT solutions for business development</string>
+    <string name="textDevelopPO">Software development</string>
+    <string name="textTitleAbout">About Us:</string>
+    <string name="textAboutAston">Aston - full service software development company. For 15 years, we have been helping customers around the world transform their business by creating effective mobile and desktop solutions.</string>
+    <string name="textOffice">Offices</string>
+    <string name="textVacancies">Vacancy</string>
+    <string name="textContacts">Contacts</string>
+    <string name="textGallery">Gallery</string>
+    <string name="textMoscow">Moscow</string>
+    <string name="textKazan">Kazan</string>
+    <string name="textRostovOnDon">Rostov-On-Don</string>
+    <string name="textMinsk">Minsk</string>
+    <string name="textGomel">Gomel</string>
+</resources>

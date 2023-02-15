@@ -8,4 +8,9 @@
     <string name="textVacancies">Вакансии</string>
     <string name="textContacts">Контакты</string>
     <string name="textGallery">Галерея</string>
+    <string name="textMoscow">Москва</string>
+    <string name="textKazan">Казань</string>
+    <string name="textRostovOnDon">Ростов-на-Дону</string>
+    <string name="textMinsk">Минск</string>
+    <string name="textGomel">Гомель</string>
 </resources>

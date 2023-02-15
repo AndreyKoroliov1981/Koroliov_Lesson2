@@ -142,24 +142,24 @@
 
             <com.google.android.material.chip.Chip
                 style="@style/CustomChip"
-                android:text="Москва" />
+                android:text="@string/textMoscow" />
 
             <com.google.android.material.chip.Chip
-                android:text="Казань"
+                android:text="@string/textKazan"
                 style="@style/CustomChip"
                  />
 
             <com.google.android.material.chip.Chip
                 style="@style/CustomChip"
-                android:text="Ростов-на-Дону" />
+                android:text="@string/textRostovOnDon" />
 
             <com.google.android.material.chip.Chip
                 style="@style/CustomChip"
-                android:text="Минск" />
+                android:text="@string/textMinsk" />
 
             <com.google.android.material.chip.Chip
                 style="@style/CustomChip"
-                android:text="Гомель" />
+                android:text="@string/textGomel" />
 
         </com.google.android.material.chip.ChipGroup>
     </ScrollView>
