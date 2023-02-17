@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".FrameActivity">
+
+    <ImageView
+        android:id="@+id/ivFlagOfAustria"
+        android:layout_gravity="start|top"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/image_in_dp"
+        android:layout_height="@dimen/image_in_dp"
+        app:srcCompat="@drawable/flag_of_austria" />
+    <ImageView
+        android:id="@+id/ivFlagOfPoland"
+        android:layout_gravity="center|top"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/image_in_dp"
+        android:layout_height="@dimen/image_in_dp"
+        app:srcCompat="@drawable/flag_of_poland" />
+    <ImageView
+        android:id="@+id/ivFlagOfItaly"
+        android:layout_gravity="end|top"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/image_in_dp"
+        android:layout_height="@dimen/image_in_dp"
+        app:srcCompat="@drawable/flag_of_italy" />
+
+    <ImageView
+        android:id="@+id/ivFlagOfColombia"
+        android:layout_gravity="start|center"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/image_in_dp"
+        android:layout_height="@dimen/image_in_dp"
+        app:srcCompat="@drawable/flag_of_colombia" />
+    <ImageView
+        android:id="@+id/ivFlagOfRussia"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/image_in_dp"
+        android:layout_height="@dimen/image_in_dp"
+        app:srcCompat="@drawable/flag_of_russia" />
+    <ImageView
+        android:id="@+id/ivFlagOfMadagascar"
+        android:layout_gravity="end|center"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/image_in_dp"
+        android:layout_height="@dimen/image_in_dp"
+        app:srcCompat="@drawable/flag_of_madagascar" />
+
+    <ImageView
+        android:id="@+id/ivFlagOfThailand"
+        android:layout_gravity="start|bottom"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/image_in_dp"
+        android:layout_height="@dimen/image_in_dp"
+        app:srcCompat="@drawable/flag_of_thailand" />
+    <ImageView
+        android:id="@+id/ivFlagOfDenmark"
+        android:layout_gravity="center|bottom"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/image_in_dp"
+        android:layout_height="@dimen/image_in_dp"
+        app:srcCompat="@drawable/flag_of_denmark" />
+    <ImageView
+        android:id="@+id/ivFlagOfSwitzerland"
+        android:layout_gravity="end|bottom"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/image_in_dp"
+        android:layout_height="@dimen/image_in_dp"
+        app:srcCompat="@drawable/flag_of_switzerland" />
+</FrameLayout>
