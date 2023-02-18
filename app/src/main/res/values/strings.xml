@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Home Work 2</string>
+    <string name="app_name">Aston intensive</string>
+    <string name="textForBusiness">ИТ-решения для развития бизнеса</string>
+    <string name="textDevelopPO">Разработка программного обеспечения</string>
+    <string name="textTitleAbout">О нас:</string>
+    <string name="textAboutAston">Aston - компания по разработке ПО с полным циклом услуг. Уже 15 лет мы помогаем заказчикам по всему миру трансформировать бизнес, создавая эффективные мобильные и десктопные решения</string>
+    <string name="textOffice">Офисы</string>
+    <string name="textVacancies">Вакансии</string>
+    <string name="textContacts">Контакты</string>
+    <string name="textGallery">Галерея</string>
+    <string name="textMoscow">Москва</string>
+    <string name="textKazan">Казань</string>
+    <string name="textRostovOnDon">Ростов-на-Дону</string>
+    <string name="textMinsk">Минск</string>
+    <string name="textGomel">Гомель</string>
 </resources>
