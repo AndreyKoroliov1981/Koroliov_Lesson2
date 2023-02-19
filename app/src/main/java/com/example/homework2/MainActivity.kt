@@ -17,23 +17,24 @@ class MainActivity : AppCompatActivity() {
 
     private fun setListeners() {
         binding.btnContacts.setOnClickListener {
-            binding.groupOfficeAndButton.isVisible = false
-            binding.progressBar.isVisible = true
+            showProgress(true)
         }
 
         binding.btnGallery.setOnClickListener {
-            binding.groupOfficeAndButton.isVisible = false
-            binding.progressBar.isVisible = true
+            showProgress(true)
         }
 
         binding.btnVacancies.setOnClickListener {
-            binding.groupOfficeAndButton.isVisible = false
-            binding.progressBar.isVisible = true
+            showProgress(true)
         }
 
         binding.progressBar.setOnClickListener {
-            binding.groupOfficeAndButton.isVisible = true
-            binding.progressBar.isVisible = false
+            showProgress(false)
         }
+    }
+
+    private fun showProgress(showProgress: Boolean) {
+        binding.groupOfficeAndButton.isVisible = !showProgress
+        binding.progressBar.isVisible = showProgress
     }
 }
