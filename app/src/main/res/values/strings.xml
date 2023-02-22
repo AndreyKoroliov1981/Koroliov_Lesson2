@@ -13,4 +13,6 @@
     <string name="textRostovOnDon">Ростов-на-Дону</string>
     <string name="textMinsk">Минск</string>
     <string name="textGomel">Гомель</string>
+    <string name="text_title_android_trainee">Android trainee</string>
+    <string name="text_subtitle_android_trainee">Стажировка по направлению Android</string>
 </resources>
