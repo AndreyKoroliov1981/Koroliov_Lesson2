@@ -4,4 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <com.example.homework2.customView.AnalogClock
+        android:id="@+id/analogClock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/DefaultAnalogClockFieldStyle"
+        app:colorDigit="@color/black"
+        app:hourHandColor="@color/teal_700"
+        app:secondHandColor="@color/design_default_color_error"
+        app:hourHandSize="0.2"
+        app:colorBackground="@color/purple_200"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

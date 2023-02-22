@@ -13,4 +13,16 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="DefaultAnalogClockFieldStyle">
+        <item name="hourHandColor">#d5dbdc</item>
+        <item name="minuteHandColor">#d5dbdc</item>
+        <item name="secondHandColor">#ffffff</item>
+        <item name="hourHandSize">0.40</item>
+        <item name="minuteHandSize">0.55</item>
+        <item name="secondHandSize">0.70</item>
+        <item name="colorDigit">#ffffff</item>
+        <item name="colorBackground">#3e5c75</item>
+    </style>
+
 </resources>
