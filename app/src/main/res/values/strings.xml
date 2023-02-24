@@ -13,6 +13,21 @@
     <string name="textRostovOnDon">Ростов-на-Дону</string>
     <string name="textMinsk">Минск</string>
     <string name="textGomel">Гомель</string>
-    <string name="text_title_android_trainee">Android trainee</string>
-    <string name="text_subtitle_android_trainee">Стажировка по направлению Android</string>
+    <string name="text_title_android_trainee" translatable="false">Android trainee</string>
+    <string name="text_subtitle_android_trainee" translatable="false">Стажировка по направлению Android</string>
+    <string name="text_auth" translatable="false">Авторизация</string>
+    <string name="text_Input" translatable="false">Вход</string>
+    <string name="textButtonInput" translatable="false">Войти</string>
+    <string name="textPassword" translatable="false">Пароль</string>
+    <string name="textName" translatable="false">Имя</string>
+    <string name="textPasswordIncorrect" translatable="false">неверный пароль</string>
+    <string name="textTitleMain" translatable="false">Главная</string>
+    <string name="textTitleVacancy" translatable="false">Вакансии</string>
+    <string name="textTitleOffices" translatable="false">Офисы</string>
+    <string name="textTitleAboutOffices" translatable="false">О офисе</string>
+    <string name="textAboutMoskow" translatable="false">Москва, Россия, Пресненская набережная, д.6, стр. 2, БЦ «Башня Империя», 3 подъезд, 53 этаж, офис 13</string>
+    <string name="textAboutGomel" translatable="false"> Гомель, Беларусь, ул. Советская, 41Б</string>
+    <string name="textAboutMinsk" translatable="false">Минск, Беларусь, пр-т Победителей, 7А</string>
+    <string name="textAboutRostov" translatable="false">Ростов-на-Дону, Россия, ул. Текучева, 246, 3 этаж</string>
+    <string name="textAboutKazan" translatable="false">Казань, Россия, ул. Н. Ершова, 76/1, оф. 213</string>
 </resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/cgOffices"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cMoskow"
+            style="@style/CustomChip"
+            android:text="@string/textMoscow" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cKazan"
+            android:text="@string/textKazan"
+            style="@style/CustomChip"
+            />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cRostov"
+            style="@style/CustomChip"
+            android:text="@string/textRostovOnDon" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cMinsk"
+            style="@style/CustomChip"
+            android:text="@string/textMinsk" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cGomel"
+            style="@style/CustomChip"
+            android:text="@string/textGomel" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
