@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.setFragmentResultListener
+import com.example.homework2.MainActivity
 import com.example.homework2.R
 import com.example.homework2.databinding.FragmentDetailOfficeBinding
 import com.example.homework2.ui.office.OfficesFragment.Companion.BUNDLE_KEY
@@ -26,8 +27,7 @@ class DetailOfficeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        (activity as? AppCompatActivity)?.supportActionBar?.title =
-            resources.getString(R.string.textTitleAboutOffices)
+        (activity as? MainActivity)?.setTitleActionBar(resources.getString(R.string.textTitleAboutOffices))
 
         setFragmentResultListener(REQUEST_KEY) { key, bundle ->
             val id = bundle.getInt(BUNDLE_KEY)

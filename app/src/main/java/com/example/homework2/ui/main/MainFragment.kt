@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.homework2.MainActivity
 import com.example.homework2.R
 import com.example.homework2.databinding.FragmentMainBinding
 
@@ -22,7 +23,6 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        (activity as? AppCompatActivity)?.supportActionBar?.title =
-            resources.getString(R.string.textTitleMain)
+        (activity as? MainActivity)?.setTitleActionBar(resources.getString(R.string.textTitleMain))
     }
 }
