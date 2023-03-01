@@ -10,11 +10,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
+import com.example.homework2.FragmentsTags
+import com.example.homework2.MainActivity
 import com.example.homework2.R
 import com.example.homework2.databinding.FragmentAuthBinding
 import com.example.homework2.ui.main.MainFragment
 
-const val password = "hello"
+const val PASSWORD = "hello"
 
 class AuthFragment : Fragment() {
 
@@ -29,8 +31,7 @@ class AuthFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        (activity as? AppCompatActivity)?.supportActionBar?.title =
-            resources.getString(R.string.text_auth)
+        (activity as? MainActivity)?.setTitleActionBar(resources.getString(R.string.text_auth))
         addListeners()
         setButtonState()
     }
@@ -46,16 +47,15 @@ class AuthFragment : Fragment() {
         }
 
         binding.btnInput.setOnClickListener {
-            if (binding.tiePassword.text.toString() != password) {
+            if (binding.tiePassword.text.toString() != PASSWORD) {
                 binding.tilPassword.error = resources.getString(R.string.textPasswordIncorrect)
             } else {
                 binding.progressBar.isVisible = true
                 binding.btnInput.isClickable = false
                 Handler(Looper.getMainLooper()).postDelayed({
                     parentFragmentManager.beginTransaction()
-                        .replace(R.id.fragment_container_view, MainFragment(), "main")
+                        .replace(R.id.fragment_container_view, MainFragment(), FragmentsTags.Main.tag)
                         .commit()
-
                 }, 1000)
             }
         }

@@ -30,4 +30,5 @@
     <string name="textAboutMinsk" translatable="false">Минск, Беларусь, пр-т Победителей, 7А</string>
     <string name="textAboutRostov" translatable="false">Ростов-на-Дону, Россия, ул. Текучева, 246, 3 этаж</string>
     <string name="textAboutKazan" translatable="false">Казань, Россия, ул. Н. Ершова, 76/1, оф. 213</string>
+    <string name="textSearchTextHint" translatable="false">Заполните строку поиска</string>
 </resources>
