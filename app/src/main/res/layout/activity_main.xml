@@ -4,4 +4,122 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSimpleFlowableJust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SimpleFlowableJust"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnObservableJust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ObservableJust"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSimpleFlowableJust" />
+
+    <Button
+        android:id="@+id/btnStartCreateObservable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CreateObservable"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnObservableJust" />
+
+    <Button
+        android:id="@+id/btnIntervalObservable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IntervalObservable"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnStartCreateObservable" />
+
+    <Button
+        android:id="@+id/btnFromObservable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FromObservable"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIntervalObservable" />
+
+    <Button
+        android:id="@+id/btnRangeObservable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RangeObservable"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFromObservable" />
+
+    <Button
+        android:id="@+id/btnDebounce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debounce"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRangeObservable" />
+    <Button
+        android:id="@+id/btnCount100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count 1 .. 100"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDebounce" />
+    <Button
+        android:id="@+id/btnConcatAndMerge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concat And Merge"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCount100" />
+
+    <Button
+        android:id="@+id/btnZip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zip"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConcatAndMerge" />
+
+    <EditText
+        android:id="@+id/etWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnZip" />
+
+    <Button
+        android:id="@+id/btnCezar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cezar"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etWord" />
+</androidx.constraintlayout.widget.ConstraintLayout>
